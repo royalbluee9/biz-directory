@@ -29,10 +29,10 @@ jobs:
           cache: 'npm'
       
       - name: Install dependencies
-        run: npm ci
+        run: cd mobile-business-directory-app && npm ci
       
       - name: Build
-        run: npm run build
+        run: cd mobile-business-directory-app && npm run build
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -40,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './mobile-business-directory-app/dist'
   
   deploy:
     environment:
