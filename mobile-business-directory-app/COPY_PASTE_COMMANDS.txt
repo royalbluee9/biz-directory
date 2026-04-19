@@ -1,0 +1,101 @@
+═══════════════════════════════════════════════════════════════
+  COPY & PASTE THESE COMMANDS TO UPLOAD TO GITHUB
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Create Repository on GitHub
+────────────────────────────────────────────────────────────────
+1. Go to: https://github.com/new
+2. Enter a repository name (example: biz-directory)
+3. Choose Public or Private
+4. DO NOT check "Initialize with README"
+5. Click "Create repository"
+6. COPY the repository URL that appears
+
+
+STEP 2: Open Terminal/Command Prompt
+────────────────────────────────────────────────────────────────
+Windows: Press Win+R, type "cmd", press Enter
+Mac: Press Cmd+Space, type "terminal", press Enter
+Linux: Press Ctrl+Alt+T
+
+
+STEP 3: Navigate to Your Project Folder
+────────────────────────────────────────────────────────────────
+cd path/to/your/project
+
+(Replace "path/to/your/project" with actual path)
+
+
+STEP 4: Copy & Paste These Commands ONE BY ONE
+────────────────────────────────────────────────────────────────
+
+git init
+
+git add .
+
+git commit -m "Initial commit - BizDirectory app with chat"
+
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+
+(⚠️ IMPORTANT: Replace YOUR-USERNAME and YOUR-REPO with your actual GitHub username and repository name!)
+
+git branch -M main
+
+git push -u origin main
+
+
+STEP 5: Enable GitHub Pages
+────────────────────────────────────────────────────────────────
+1. Go to your repository on GitHub
+2. Click "Settings" tab
+3. Click "Pages" in left sidebar
+4. Under "Source", select "GitHub Actions"
+5. Done! Wait 2-3 minutes
+
+
+YOUR APP WILL BE LIVE AT:
+────────────────────────────────────────────────────────────────
+https://YOUR-USERNAME.github.io/YOUR-REPO/
+
+(Replace YOUR-USERNAME and YOUR-REPO with your actual values)
+
+
+═══════════════════════════════════════════════════════════════
+  FUTURE UPDATES (After initial upload)
+═══════════════════════════════════════════════════════════════
+
+To update your app after making changes:
+
+git add .
+git commit -m "Description of your changes"
+git push
+
+
+═══════════════════════════════════════════════════════════════
+  EASIER METHODS (No Command Line Needed)
+═══════════════════════════════════════════════════════════════
+
+METHOD 1: Run the automated script
+   Mac/Linux: ./deploy.sh
+   Windows: deploy.bat
+
+METHOD 2: Use GitHub Desktop
+   Download: https://desktop.github.com/
+   1. Open GitHub Desktop
+   2. Sign in
+   3. File → Add Local Repository
+   4. Choose your project folder
+   5. Click "Publish repository"
+   6. Enable GitHub Pages in Settings
+
+METHOD 3: Use VS Code
+   1. Open project in VS Code
+   2. Click Source Control icon (left sidebar)
+   3. Click "Initialize Repository"
+   4. Click "Publish to GitHub"
+   5. Enable GitHub Pages in Settings
+
+
+═══════════════════════════════════════════════════════════════
+
+Questions? See UPLOAD_TO_GITHUB.md for detailed help!
